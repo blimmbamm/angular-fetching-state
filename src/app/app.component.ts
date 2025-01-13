@@ -1,12 +1,11 @@
 import { AsyncPipe } from '@angular/common';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Component, ElementRef, inject, viewChild } from '@angular/core';
+import { HttpErrorResponse } from '@angular/common/http';
+import { Component, inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import {
   BehaviorSubject,
   catchError,
   delay,
-  fromEvent,
   map,
   Observable,
   of,
